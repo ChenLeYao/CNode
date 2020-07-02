@@ -11,3 +11,160 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.page_header_wrap h1 {
+   color: #ffffff;
+  margin:0;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+.page_header_wrap  .ant-layout-header {
+   padding: 0;
+}
+.header_divider {
+   height: 40px;
+  line-height: 40px;
+}
+div , ul {
+  padding: 0;
+}
+.xs_nav {
+  position: absolute;
+  top:0;
+  right:10px;
+  width: 50px;
+  height: 50px;
+}
+.page_content {
+  /*height: 800px;*/
+  /*padding: 0 50px;*/
+}
+@media  screen and ( max-width:1000px){
+  .wrap {
+    width:100%!important;
+    padding: 0 10px!important;
+  }
+  .wrap_list img {
+    width:100%;
+  }
+  .wrap h2 {
+    font-size: 20px!important;
+  }
+  .wrap_list {
+    width:100%!important;
+    margin: 0 auto!important;
+  }
+}
+.wrap {
+  width:80%;
+  padding: 0 10px;
+  margin: 0 auto!important;
+}
+.wrap.no_padding {
+  padding: 0!important;
+}
+.wrap h2 {
+  padding: 10px;
+  margin: 0;
+  font-size: 30px;
+}
+.wrap ul {
+  list-style: none;
+}
+
+.wrap-border , .wrap_border {
+  border:1px solid #ccc;
+  border-bottom: none;
+}
+.wrap_list {
+  width:80%;
+  margin: 0 auto!important;
+  overflow-x: scroll;
+  /*padding: 0 20px;*/
+}
+.response_list p {
+  margin: 5px;
+}
+.user {
+  padding: 20px 0;
+}
+
+.user .user_avatar {
+  margin: 0 auto;
+  display: block;
+  width: 110px;
+  height: 110px;
+}
+.user .user_avatar img { border-radius:100px;}
+.user_vertical .user_avatar_vertical  img{
+  display: block;
+  /*width: 70px;*/
+  /*height: 70px;*/
+}
+.user .user_message {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.user .user_message .title{
+  color: #1890ff;
+  margin-right: 5px;
+}
+.user_create_list li{
+   /*padding: 8px 0;*/
+}
+.user_create_list .title{
+  color: #1890ff;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.mate_content img{
+  width: 100%!important;
+}
+.wrap_mask {
+  position: fixed;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  opacity: 0.8;
+  background: #000000;
+}
+.wrap_close {
+  position: absolute;
+  top:10px;
+  right: 10px;
+  z-index: 10;
+  color: white;
+  background: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media screen and ( min-width: 500px ){
+  .wrap_box{
+    height:700px!important;
+    top:5%!important;
+    width: 80%!important;
+    left:10%!important;
+  }
+}
+.wrap_box {
+  width: 90%;
+  top:20%;
+  left:5%;
+  position: fixed;
+  background: #ffffff;
+  overflow: scroll;
+  height: 300px;
+}
+.anticon {
+  vertical-align: initial;
+}
+.ant-layout-footer {
+  margin-top:15px;
+}
