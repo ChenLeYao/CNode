@@ -11,7 +11,7 @@ let store = createStore( reducer , applyMiddleware( thunk ));
 console.log(store.getState());
 class RouteIndex extends Component {
      render(){
-         console.log(this.props);
+         // console.log(this.props);
          return (
              <Router path="/">
                  <Provider store={store}>

@@ -10,7 +10,7 @@ class Nav extends  Component {
         this.state = {
             pathname  : window.location.pathname
         };
-        console.log(this.props);
+        // console.log(this.props);
         this.hashChange = this.hashChange.bind(this);
     }
     hashChange ( item ){
@@ -19,7 +19,7 @@ class Nav extends  Component {
           })
     }
     render (){
-        console.log('重新渲染');
+        // console.log('重新渲染');
         return(
             <Menu mode={ this.props.mode }  theme={this.props.theme} selectedKeys={[ this.state.pathname ]}>
                 <Menu.Item key="/index/all" onClick={ this.hashChange }>
