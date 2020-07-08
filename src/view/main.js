@@ -4,6 +4,7 @@ import About from "./about/about.js";
 import User from "./user/user.js";
 import Details from "./details/details.js";
 import Book from "./book/book.js";
+import Login from "./login/login.js";
 import { Route , Switch ,  Redirect  }  from "react-router-dom";
 
 class Main extends Component {
@@ -15,6 +16,7 @@ class Main extends Component {
                     <Route path="/user/:id" component={User}/>
                     <Route path="/about" component={About}/>
                     <Route path="/details/:id" component={Details}/>
+                   <Route path="/login" component={Login}/>
                    </Switch>
         )
     }

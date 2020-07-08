@@ -3,7 +3,7 @@ import {  Menu   } from 'antd';
 import {  Link } from 'react-router-dom';
 import '../../index.css';
 import Icon , { HomeOutlined , ReadOutlined , BarsOutlined } from '@ant-design/icons';
-console.log(window.location.pathname);
+
 class Nav extends  Component {
     constructor( props ){
         super(props);
@@ -27,6 +27,9 @@ class Nav extends  Component {
                 </Menu.Item>
                 <Menu.Item  key="/book" onClick={ this.hashChange }>
                     <Link to="/book"><Icon component={ReadOutlined}/>教程</Link>
+                </Menu.Item>
+                <Menu.Item key="/login" onClick={ this.hashChange }>
+                    <Link to="/login"><Icon component={BarsOutlined}/>登录</Link>
                 </Menu.Item>
                 <Menu.Item key="/about" onClick={ this.hashChange }>
                     <Link to="/about"><Icon component={BarsOutlined}/>关于</Link>

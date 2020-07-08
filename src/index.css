@@ -168,3 +168,24 @@ div , ul {
 .ant-layout-footer {
   margin-top:15px;
 }
+.login_title {
+   font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+}
+.login_panel {
+  width: 300px;
+  margin: 0px auto;
+  padding:40px 0;
+  padding-bottom: 0;
+  height: 400px;
+}
+.login_tip {
+  width: 300px;
+  margin: 0px auto;
+  padding-bottom: 15px;
+}
+.login_tip span:hover {
+   color: red;
+  cursor: pointer;
+}
