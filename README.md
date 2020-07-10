@@ -5,6 +5,5 @@ $ npm install
 # 生成环境打包
 npm run build
 #启动服务
-
 npm run start 
 
